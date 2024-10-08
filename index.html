@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aviacion </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+     
+        .header {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 150px;
+        }
+       
+        .main-section {
+            background-color: #fa0909;
+            padding: 40px;
+            text-align: center;
+        }
+        .main-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .main-section p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .hosting-section {
+            background-color: #eee7e7;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .hosting-cards {
+            display: flex;
+            justify-content: space-around;
+        }
+        .card {
+            border: 1px solid #f2f5f7;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            text-align: left;
+        }
+        .card h3 {
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .card p {
+            margin-bottom: 20px;
+        }
+        .card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: rgb(244, 246, 248);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .guide-section {
+            background-color: #ff0202;
+            padding: 40px;
+            text-align: center;
+        }
+        .guide-steps {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+        }
+        .step {
+            text-align: center;
+            width: 30%;
+        }
+        .step img {
+            width: 80px;
+            height: 80px;
+        }
+        .step p {
+            margin-top: 10px;
+        }
+        
+        .footer {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer p {
+            margin: 10px 0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+  
+  
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #000000;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #007BFF;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffffff;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <header class="header">
+        <img src="LOGO/logoA.jfif" alt="Logo">
+    </header>
+
+   
+    <section class="main-section">
+        <h1>COMPAÑIA DE AV INTERNACIONAL</h1>
+        <p>ACA PODRAS TENER UN REGISTRO DE VUELOS</p>
+        <a href="informacion.html">Ver más información</a>
+    </section>
+
+    <section class="aviacion">
+        <h2> VER REGISTROS </h2>
+        <div class="hosting-cards">
+            <div class="card">
+                <h3>PILOTOS</h3>
+                <p>Código, Nombre, Horas de vuelo, Base</p>
+                <a href="PILOTOS.HTML">Ver datos de los Pilotos</a>
+            </div>
+            <div class="card">
+                <h3>MIEMBROS DE TRIPULACION</h3>
+                <p>Código, Nombre, Base</p>
+                <a href="miembros.html">Ver datos de los miembros</a>
+            </div>
+            <div class="card">
+                <h3>AVIONES</h3>
+                <p>numero de vuelo, destino,hora,avion, piloto,miembros de tripulacion</p>
+                <a href="aviones.html">Ver datos de los aviones</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="guide-section">
+        <h2>AVI</h2>
+        <H3>"AVIACION INTERNACIONAL"</H3>
+        <div class="guide-steps">
+            <div class="step">
+                <img src="LOGO/piloto.jfif" alt="">
+                <p>A</p>
+            </div>
+            <div class="step">
+                <img src="LOGO/miembtro.jfif" alt="">
+                <p>V</p>
+            </div>
+            <div class="step">
+                <img src="LOGO/avion.jfif" alt="">
+                <p>I</p>
+            </div>
+        </div>
+    </section>
+
+  
+
+  
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>AVI| <a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a></p>
+        <p>© AV INTERNACIONAL 2024 TuCompañía</p>
+    </footer>
+</div>
+
+</body>
+</html>
